@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #191E24;
+    font-family: 'Roboto', sans-serif;
+    color: #93A1B4;
+}
+
+a {
+    color: #93A1B4 !important;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.header {
+    background-color: #111418;
+}
