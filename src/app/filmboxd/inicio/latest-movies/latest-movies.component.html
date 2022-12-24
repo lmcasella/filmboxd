@@ -1,0 +1,17 @@
+<div class="row d-flex justify-content-start mt-4">
+  <div class="d-flex align-items-center" style="margin-bottom: 8px">
+    <p class="default-text-dark" style="margin-bottom: 0px; margin-left: 6px">
+      Películas recientes
+    </p>
+  </div>
+  <hr />
+  <div class="col-2 mb-3" *ngFor="let item of nowPlayingMoviesFiltered">
+    <div class="card default-card-bg">
+      <img
+        [src]="'https://image.tmdb.org/t/p/w185' + item.poster_path"
+        alt=""
+        class="card-border-radius"
+      />
+    </div>
+  </div>
+</div>

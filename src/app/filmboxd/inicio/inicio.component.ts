@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FilmboxdService } from '../services/filmboxd.service';
 
 @Component({
   selector: 'app-inicio',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./inicio.component.scss']
 })
 export class InicioComponent {
+
+  constructor(public io: FilmboxdService) { }
+
+  
 
 }
